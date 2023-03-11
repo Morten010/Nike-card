@@ -104,6 +104,7 @@ html {
     color: #fff;
     display: grid;
     place-items: center;
+
     border-radius: 0.3rem;
     font-size: 0.9rem;
     font-weight: bold;
@@ -136,10 +137,11 @@ html {
 }
 .sizes {
     display: flex;
+    align-items: center;
 }
 .size span{
     font-size: 1.3rem;
-    margin-right: 2.5rem;
+    margin-right: 1.5rem;
 }
 /* .size span:nth-child(3){
     width: 2rem;
@@ -161,6 +163,15 @@ html {
     border-radius: 50%;
     display: grid;
     place-items: center;
+}
+.size-btn{
+    width: 2rem;
+    height: 2rem;
+    background-color: #eee;
+    color: 000;
+    border-radius: 50%;
+    display: grid;
+    place-items: center; 
 }
 
 
